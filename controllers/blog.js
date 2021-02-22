@@ -208,11 +208,11 @@ var controller = {
         }
 
         var file_path = req.files.file0.path;
-        var file_split = file_path.split('\\');
+        var file_split = file_path.split('/');
 
         var file_name = file_split[2];
 
-        var extension = file_name.split('\.');
+        var extension = file_name.split('.');
         var file_ext = extension[1];
 
         if(file_ext != 'png' && file_ext != 'jpg' && file_ext != 'jpeg' && file_ext != 'gif'){
