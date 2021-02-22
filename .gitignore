@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+*.png
